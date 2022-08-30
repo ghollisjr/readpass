@@ -27,5 +27,5 @@
                 (setf result
                       (text text))
                 (setf *exit-mainloop* t)))
-        (force-focus text)))
+        (focus text)))
     result))
